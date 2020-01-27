@@ -4,4 +4,4 @@
 - Joke*
 - Reply
 
-* = required field(s)
+** = required field(s)
