@@ -1,0 +1,26 @@
+{
+  "name": "DadJokesAPI",
+  "version": "1.0.0",
+  "description": "Dad Jokes API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrandyBecker/DadJokesAPI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrandyBecker/DadJokesAPI/issues"
+  },
+  "homepage": "https://github.com/BrandyBecker/DadJokesAPI#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "helmet": "^3.21.2",
+    "knex": "^0.20.8",
+    "sqlite3": "^4.1.1"
+  }
+}
