@@ -1,7 +1,7 @@
 # DadJokesAPI
 `/api/jokes` : Endpoint returns a list of Characters in the format
 - ID
-- Joke*
+- Joke`*`
 - Reply
 
- `*` = required field(s)
+ `*` = required field(s), must be filled out
