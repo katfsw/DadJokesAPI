@@ -1,0 +1,62 @@
+
+exports.seed = function(knex) {
+  // Deletes ALL existing entries
+  return knex('jokes').truncate()
+    .then(function () {
+      // Inserts seed entries
+      return knex('jokes').insert([
+        {id: 1, joke: 'What was a more important invention than the first telephone?', reply:'The second one!'},
+        {id: 2, joke: 'What kind of magic do cows believe in?', reply:'MOODOO!'},
+        {id: 3, joke: "My pet mouse 'Elvis' died last night. He was caught in a trap..", reply:''},
+        {id: 4, joke: 'What do you call a pile of cats?', reply:'A Meowtain!'},
+        {id: 5, joke: "How do locomotives know where they're going?", reply:'Lots of training!'},
+        {id: 6, joke: "Dad, did you get a haircut?" , reply:"No, I got them all cut!"},
+        {id: 7, joke: "How do you get a squirrel to like you?", reply:'Act like a nut!'},
+        {id: 8, joke: "Why don't eggs tell jokes? ", reply:"They'd crack each other up!"},
+        {id: 9, joke: "I don't trust stairs. They're always up to something.", reply:''},
+        {id: 10, joke: "What do you call someone with no body and no nose?", reply:'Nobody knows!'},
+        {id: 11, joke: "Did you hear the rumor about butter? ", reply: "Well, I'm not going to spread it!"},
+        {id: 12, joke: "Why couldn't the bicycle stand up by itself?", reply: "It was two tired!"},
+        {id: 13, joke: "Dad, can you put my shoes on?", reply: "No, I don't think they'll fit me!"},
+        {id: 14, joke: "Why can't a nose be 12 inches long? ", reply: "Because then it would be a foot!"},
+        {id: 15, joke: "This graveyard looks overcrowded.", reply: "People must be dying to get in!"},
+        {id: 16, joke: "Dad, can you put the cat out?", reply: "I didn't know it was on fire!"},
+        {id: 17, joke: "What time did the man go to the dentist?", reply: "Tooth Hurt-y!"},
+        {id: 18, joke: "How many tickles does it take to make an octopus laugh?", reply: "Ten tickles!"},
+        {id: 19, joke: "Why did the scarecrow win an award?", reply: "Because he was outstanding in his field!"},
+        {id: 20, joke: "How do you make a Kleenex dance?", reply: "Put a little boogie in it!"},
+        {id: 21, joke: "Did you hear about the guy who invented the knock-knock joke?", reply: "He won the 'no-bell' prize!"},
+        {id: 22, joke: "I've got a great joke about construction, but I'm still working on it!", reply: ""},
+        {id: 23, joke: "I used to hate facial hair...but then it grew on me!", reply: ""},
+        {id: 24, joke: "I decided to sell my vacuum cleaner—it was just gathering dust!", reply: ""},
+        {id: 25, joke: "You know, people say they pick their nose, but I feel like I was just born with mine.", reply: ""},
+        {id: 26, joke: "What's brown and sticky?", reply: "A stick!"},
+        {id: 27, joke: "Why can't you hear a psychiatrist using the bathroom?", reply: "Because the 'P' is silent!"},
+        {id: 28, joke: "What do you call an elephant that doesn't matter?", reply: "An irrelephant!"},
+        {id: 29, joke: "What do you get from a pampered cow?", reply: "Spoiled milk!"},
+        {id: 30, joke: "Did you hear about the circus fire?", reply: "It was in tents!"},
+        {id: 31, joke: "Can February March?", reply: "No, but April May!"},
+        {id: 32, joke: "How do lawyers say goodbye?", reply: "We'll be suing ya!"},
+        {id: 33, joke: "Wanna hear a joke about paper?", reply: "Never mind—it's tearable!"},
+        {id: 34, joke: "What's the best way to watch a fly fishing tournament?", reply: "Live stream!"},
+        {id: 35, joke: "Spring is here! I got so excited I wet my plants.", reply: ""},
+        {id: 36, joke: "I could tell a joke about pizza, but it's a little cheesy.", reply: ""},
+        {id: 37, joke: "When does a joke become a dad joke?", reply: "When it becomes apparent!"},
+        {id: 38, joke: "I wouldn't buy anything with velcro. It's a total rip-off!", reply: ""},
+        {id: 39, joke: "What’s an astronaut’s favorite part of a computer?", reply: "The space bar!"},
+        {id: 40, joke: "How can you tell it’s a dogwood tree?", reply: "From the bark!"},
+        {id: 41, joke: "If you’re an American in the kitchen, what are you when you’re in the bathroom?", reply: "European!"},
+        {id: 42, joke: "What did Mississippi let Delaware?", reply: "I don’t know, but Alaska!"},
+        {id: 43, joke: "Doctor, I keep seeing an insect buzzing around me.", reply: "Don’t worry; that’s just a bug that’s going around!"},
+        {id: 44, joke: "Why did the scarecrow win an award?", reply: "Because he was outstanding in his fiel!."},
+        {id: 45, joke: "Did you hear about the cheese factory that exploded in France?", reply: "There was nothing left but de Brie!"},
+        {id: 46, joke: "What do you get when you cross a snowman with a vampire?", reply: "Frostbite!"},
+        {id: 47, joke: "I hate jokes about German sausages.", reply: "They're the Wurst!"},
+        {id: 48, joke: "Is this pool safe for diving?", reply: "It deep-ends!"},
+        {id: 49, joke: "What lies at the bottom of the ocean and twitches?", reply: "A nervous wreck!"},
+        {id: 50, joke: "I’m reading a book on the history of glue.", reply: "I just can’t seem to put it down!"},
+      ]);
+    });
+};
+
+// {id: , joke: "", reply: ""},
